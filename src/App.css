@@ -41,19 +41,24 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  box-shadow: 2px 2px 2px 2px #989a9d;
+  padding: 20px;
+  width: 70vw;
+  margin-left: 15vw;
 }
 .blog {
   display: flex;
   flex-direction: column;
-  margin: 20px;
-  border: solid 1px black;
+  margin: 30px;
+  border: solid 2px #e8854b;
   width: 50vw;
-  border-radius: 2px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px #989a9d;
 }
 .title {
   display: flex;
   padding: 5px;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid #e8854b;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: large;
