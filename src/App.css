@@ -36,3 +36,128 @@
     transform: rotate(360deg);
   }
 }
+.blogs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.blog {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  border: solid 1px black;
+  width: 50vw;
+  border-radius: 2px;
+}
+.title {
+  display: flex;
+  padding: 5px;
+  border-bottom: 1px solid black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: large;
+  font-weight: 800;
+}
+.blogdata {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  font-weight: 400;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.likes {
+  display: flex;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  font-weight: 400;
+  flex-direction: row;
+}
+.likes img {
+  height: 45px;
+  width: 45px;
+}
+
+.likes button {
+  height: 40px;
+  width: 40px;
+  margin-top: -10px;
+  background-color: white;
+  position: relative;
+  border-radius: 3px;
+  margin-right: 7px;
+  max-width: fit-content;
+  max-height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d0d2d6;
+}
+.likes button:active {
+  border: 1px solid #282c34;
+}
+.blogdata img {
+  height: 30px;
+  width: 30px;
+}
+
+.addablog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #d5d5c0;
+  margin: 10px;
+  padding: 10px;
+  background: linear-gradient(#282c34, #61dafb);
+}
+.addinputtitle {
+  width: 40vw;
+  border: solid 1px #989a9d;
+  border-radius: 4px;
+  height: 25px;
+  font-size: large;
+  margin: 10px;
+}
+.addinputdata {
+  width: 40vw;
+  border: solid 1px #989a9d;
+  border-radius: 4px;
+  height: 25px;
+  font-size: large;
+}
+.addablog button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  border: none;
+  padding: 10px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  font-size: small;
+  background-color: #e8854b;
+  margin: 5px;
+}
+.addablog button:active {
+  background-color: red;
+}
+.datachnge {
+  display: none;
+}
+.editimg {
+  margin-top: 3px;
+  padding: 3px;
+}
+h1 {
+  font-family: fantasy;
+  font-weight: 900;
+  font-size: 7vh;
+  color: #e8854b;
+}
